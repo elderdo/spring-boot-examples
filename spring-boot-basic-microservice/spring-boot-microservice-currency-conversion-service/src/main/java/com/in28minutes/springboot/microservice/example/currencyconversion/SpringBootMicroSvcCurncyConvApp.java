@@ -8,9 +8,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableFeignClients("com.in28minutes.springboot.microservice.example.currencyconversion")
 @EnableDiscoveryClient
-public class SpringBootMicroSvcCurrencyConvApp {
+public class SpringBootMicroSvcCurncyConvApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMicroSvcCurrencyConvApp.class, args);
+		SpringApplication.run(SpringBootMicroSvcCurncyConvApp.class, args);
 	}
 }
